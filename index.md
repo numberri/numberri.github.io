@@ -13,3 +13,5 @@ I like crypto, but crypto does not like me. I also often do forensics, and try t
 
 ## Contact
 If you want to contact me, you can do so through email - here's my email in hex for anti-spam: 626972646d6f64654070726f746f6e2e6d65
+<br>
+You can also find me on some platforms under numberri or cyberri.
