@@ -1,13 +1,13 @@
 # Site Specific Configuration
-name: LightSpeed
-description: A simple Jekyll theme
-url: https://example.com
-author: tajacks
-timezone: America/Toronto
+name: numberri
+description: blog for writeups and other stuff
+url: https://numberri.github.io
+author: numberri 
+timezone: Australia/Brisbane
 timezone_short: ET
 
 # Keywords
-keywords: ['seo', 'key', 'words']
+# keywords: ['seo', 'key', 'words']
 
 # Analytics (Plausible requires sign-up)
 analytics:
