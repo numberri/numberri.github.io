@@ -1,27 +1,15 @@
 ---
 layout: default
-title: LightSpeed Contact
+title: numberri's writeups
 ---
 
-## About
-LightSpeed is a lightweight Jekyll theme designed to be privacy-friendly (~~no~~ _very little_ JavaScript), fast, and
-excellent at delivering content.
+## Welcome
+This Github pages will be used mostly for CTF Writeups, although I may eventually put blog posts on here as well.
 
-## About, Further
-This second section demonstrates spacing. CSS is kept to a minimum with minor styling
-for site colours and spacing. prism.js is used for code styling.    
+## whoami
+I'm berri, a university student studying Computer Science with as much math as my degree allows. I'm also involved in running my uni's cybersecurity society, and will occasionally do CTFs.
 <br>
-Here's a new paragraph for you.  
-
-## Features
-- Pagination
-    - Posts
-    - Categories
-- Posts
-- RSS
-- Syntax highlighting
-- Basic Mobile Support
-- SEO Plugin
+I like crypto, but crypto does not like me. I also often do forensics, and try to dabble in other categories as well.
 
 ## Contact
-Email me, [tom@tomjack.ca](mailto:tom@tomjack.ca).
+If you want to contact me, here's my email in hex for anti-spam: 626972646d6f64654070726f746f6e2e6d65
