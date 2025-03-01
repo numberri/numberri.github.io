@@ -1,6 +1,5 @@
 .badges {
-    display: grid; /* Enables grid layout */
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    display: grid;
     gap: 10px;
     justify-items: center;
 }
