@@ -9,7 +9,6 @@ title: numberri's writeups
 I'm berri, a university student studying Computer Science with as much math as my degree allows. I'm also involved in running my uni's cybersecurity society, and will occasionally do CTFs.
 I hope to be posting some of my write-ups here!
 <br>
-<br>
 I like crypto, but crypto does not like me. I also often do forensics, and try to dabble in other categories as well.
 <br>
 <br>
