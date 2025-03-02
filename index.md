@@ -18,4 +18,3 @@ When I'm not doing cybersecurity/coding/math stuff, I enjoy gaming on Nintendo c
 If you want to contact me, you can do so through email - here's my email in hex for anti-spam: 626972646d6f64654070726f746f6e2e6d65
 
 You can also find me on some platforms under numberri or cyberri.
-z
