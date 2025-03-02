@@ -1,5 +1,5 @@
 .badges {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    justify-items: center;
-}
+    justify-content: center;
