@@ -15,7 +15,6 @@ sass:
   style: expanded # compact, expanded or compressed
 
 # Paginate
-permalink: /posts/:year-:month-:day-:title/
 pagination:
   enabled: true
   # Value set low for demonstration purposes
