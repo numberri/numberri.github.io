@@ -30,11 +30,12 @@ body {
 /*
   6. Improve media defaults
   Deleteing this in hopes that it helps with my badges lol
+  edit; making it a class I can put things as
 */
-//img, picture, video, canvas, svg {
-//  display: block;
-//  max-width: 100%;
-//}
+.post-img {
+  display: block;
+  max-width: 100%;
+}
 /*
   7. Remove built-in form typography styles
 */
