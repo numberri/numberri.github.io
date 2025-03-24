@@ -9,9 +9,6 @@ Category: Crypto
 Points: 100
 Solves: 3
 ```
-
-# Challenge Description
-
 <br>
 
 ***Prove you are timk:***
@@ -20,19 +17,13 @@ Solves: 3
 
 *I've chosen a Pokemon and encrypted it using timk's public key.*
 
-<br>
-
 *To prove you are timk, use your private key to decrypt the ciphertext which will tell you the Pokemon to select.*
-
-<br>
 
 *I know timk has lots of keypairs so I've supplied the public key for him to know which private key to use.*
 
 <br>
 
 *To ensure things stay safe, I'll rotate the Pokemon and key every 5 minutes.*
-
-<br>
 
 *Don't bother trying to guess as I will block you for 30 seconds on an incorrect attempt!*
 
@@ -41,8 +32,6 @@ Solves: 3
 # The go plan - and where I mess things up
 
 Upon inspecting the website, this comment is also revealed:
-
-<br>
 
 ```html
 <!-- TODO: Look into newer padding schemes. For now I have just padded PT to the key size using leading null bytes, but it should be pretty solid. -->
@@ -62,17 +51,16 @@ The TL;DR of what needs to be done is:
 <br>
 
 Pretty easy! First problem I run into... parsing the .pem key to an RSA public key. I opt to pass this to openssl:
-<br>
 
 ```python
 def pad_with_null_bytes(pokemon):
     max_data_size = 244 # This was first done by trial and error...
-    # I found out there was a reason why this was 244 and not 256 later, which is why my code was failing. :P
+    # I found out there was a reason why this was 244 and not 256 later, which was why my code was failing. :P
     padding_length = max_data_size - len(pokemon)
     padded = b"\x00" * padding_length + pokemon
     return padded
 
-with open('i_choose_you/character.enc', 'rb') as file:
+with open('character.enc', 'rb') as file:
     encrypted_solution = file.read().strip()
 
 pokemon = open("pokemon_list.txt", "r")
@@ -100,9 +88,6 @@ Great! Code to encrypt Pokemon done! And yet... I wasn't getting any matches.
 <br>
 
 # A bit of hindsight, and more mistakes
-
-<br>
-
 I think that a common theme of write-ups on this blog so far has been "I spend too long barking up the wrong tree, and I should have figured out what was going on earlier". 
 
 <br>
@@ -116,8 +101,6 @@ This is also why I couldn't encrypt things when the plaintext was longer than 24
 <br>
 
 I unfortunately didn't realize this, and spent more time writing incorrect code, and a LOT of time debugging it.
-
-<br>
 
 ```python
 from cryptography.hazmat.primitives.asymmetric import padding
@@ -164,8 +147,6 @@ for p in pokemon:
 
 # The solution, finally
 Partially because I was running around the con and talking to people as well as doing the CTF, I only got the solution 10 minutes before the CTF ended.
-
-<br>
 
 ```python
 from cryptography.hazmat.primitives import serialization
@@ -215,13 +196,14 @@ Finally! I'm able to submit the Pokemon with 10 minutes left in the CTF.
 Well done! flag{gotta-choose-them-all}
 ```
 
-# Finishing notes and self reflection
 <br>
+
+# Finishing notes and self reflection
 I actually wasn't planning on taking part in this CTF, however I got a text from one of the members from my uni society asking me to join the team as they need someone who understands crypto. I know I've always said that crypto doesn't like me, but it turns out that kind of half understanding crypto is a pretty high bar. We ended up coming third in the CTF as well, which is incredible!
 
 <br>
 
-On the flip side, I ended up meeting the crypto player of the winning team, as well. He ended up getting over half the points for his team, and he was pretty incredible. I think that this is definitely going to encourage me to work harder on training for CTFs in the future, although this motivation may be killed by university work in the near future.
+On the flip side, I ended up meeting the crypto player of the winning team, as well. He ended up getting over half the points for his team, and he was pretty incredible.... I may have gotten a bit of a case of impostor syndrome after the CTF. I think that this is definitely going to encourage me to work harder on training for CTFs in the future, although this motivation may be killed by university work in the near future.
 
 (also, you should check this guy out. [he's pretty cool](https://jsur.in/).)
  
