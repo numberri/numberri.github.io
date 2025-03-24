@@ -193,7 +193,7 @@ Finally! I'm able to submit the Pokemon with 10 minutes left in the CTF.
 <br>
 
 ```
-Well done! flag{gotta-choose-them-all}
+Well done! flag{                  }
 ```
 
 <br>
