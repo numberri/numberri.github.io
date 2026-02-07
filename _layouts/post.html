@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="post-info">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.date | date_to_string }}</p>
+    {%- if page.tags -%}
+        {% for tag in page.tags %}
+          <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+                #{{ tag }}
+            </a>
+       {% endfor %}
+{%- endif -%}
+</div>
+
+<div class="post-content">
+{{ content }}
+</div>

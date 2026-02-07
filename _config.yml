@@ -1,0 +1,35 @@
+# Site Specific Configuration
+name: numberri
+description: blog for writeups and other stuff
+url: https://numberri.github.io
+author: numberri 
+timezone: Australia/Brisbane
+timezone_short: AEST
+
+# Keywords
+# keywords: ['seo', 'key', 'words']
+
+# Styling
+sass:
+  sass_dir: _sass
+  style: expanded # compact, expanded or compressed
+
+# Paginate
+pagination:
+  enabled: true
+  # Value set low for demonstration purposes
+  per_page: 10
+  permalink: "/page/:num/"
+  title_suffix: " - page :num"
+  sort_field: 'date'
+  sort_reverse: true
+
+# Exclusions
+exclude: [ 'README.md', 'COPYING' ]
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+

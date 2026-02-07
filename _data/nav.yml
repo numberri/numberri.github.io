@@ -1,0 +1,6 @@
+- name: Posts
+  link: /posts
+- name: Archive
+  link: /archive
+- name: About & Contact
+  link: /
