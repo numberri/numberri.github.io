@@ -9,7 +9,7 @@ title: numberri's writeups
 I'm berri, a university student studying Computer Science with as much math as my degree allows. I'm also involved in running my uni's cybersecurity society, and will occasionally do CTFs.
 I hope to be posting some of my write-ups here!
 <br>
-I like crypto, but crypto does not like me. I may also do other categories as well - I'm currently working on getting better at web exploitation.
+I like cryptography, but cryptography does not like me. I may also do other categories as well - I'm currently working on getting better at web exploitation.
 <br>
 <br>
 When I'm not doing cybersecurity/coding/math stuff, I enjoy gaming on Nintendo consoles, hiking, going on walks, running, going to cafés and playing bass guitar. I sometimes write, make music, and draw, but I'm not very good at it.
