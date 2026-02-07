@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CrikeyCon 2025 - I CHOOSE YOU"
-tags: writeups, crikeycon, crypto
+tags: writeups, crikeycon, cryptography
 ---
 
 ```

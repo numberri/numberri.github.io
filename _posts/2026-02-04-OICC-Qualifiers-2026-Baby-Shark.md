@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2026 OICC Qualifiers - Baby Shark"
-tags: writeups, oicc, crypto
+tags: writeups, oicc, cryptography
 ---
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
