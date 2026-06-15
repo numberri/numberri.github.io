@@ -6,7 +6,7 @@ title: numberri's writeups
 ![image]({{site.url}}/assets/images/188948_xVbc4tva.png){: style="float: left"}
 
 ## $ whoami
-I'm berri, a university student studying Computer Science with as much math as my degree allows. I'm also involved in running my uni's cybersecurity society, and will occasionally do CTFs.
+I'm berri, a university student studying Computer Science with as much maths as my degree allows. I'm also involved in running my uni's cybersecurity society, and will occasionally do CTFs.
 I hope to be posting some of my write-ups here!
 <br>
 I like cryptography, but cryptography does not like me. I may also do other categories as well - I'm currently working on getting better at web exploitation.
