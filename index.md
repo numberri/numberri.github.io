@@ -12,7 +12,7 @@ I hope to be posting some of my write-ups here!
 I like cryptography, but cryptography does not like me. I may also do other categories as well - I'm currently working on getting better at web exploitation.
 <br>
 <br>
-When I'm not doing cybersecurity/coding/math stuff, I enjoy gaming on Nintendo consoles, hiking, going on walks, running, going to cafés and playing bass guitar. I sometimes write, make music, and draw, but I'm not very good at it.
+When I'm not doing cybersecurity/coding/maths stuff, I enjoy gaming on Nintendo consoles, hiking, going on walks, running, going to cafés and playing bass guitar. I sometimes write, make music, and draw, but I'm not very good at it.
 ## Contact
 If you want to contact me, you can do so through email - here's my email in hex for anti-spam: 626972646d6f64654070726f746f6e2e6d65
 
